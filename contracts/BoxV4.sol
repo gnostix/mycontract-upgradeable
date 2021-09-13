@@ -1,11 +1,10 @@
-// contracts/Box.sol
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.7.0;
+pragma solidity >=0.8.0;
 pragma experimental ABIEncoderV2;
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-contract BoxV2 is Initializable {
+contract BoxV4 is Initializable {
     uint256 private value;
     string public name;
     Approval[] private approvals;

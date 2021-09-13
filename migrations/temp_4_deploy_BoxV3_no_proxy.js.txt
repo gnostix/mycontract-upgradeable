@@ -1,0 +1,5 @@
+const BoxV3 = artifacts.require("BoxV3");
+
+module.exports = function (deployer) {
+    deployer.deploy(BoxV3);
+}
